@@ -1,0 +1,91 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+ background-image: url('./assets/fundo\,png.avif');
+ background-repeat: no-repeat;
+ background-size: 100% auto;
+ background-position: top center;
+ background-color: hsla(157, 68%, 27%, 0.973);
+ color:rgb(66, 13, 190);
+
+   
+}
+body *,:root{
+    font-family: 'Inter';
+    line-height: 140%;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+p{
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px auto;
+    width: 80%;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+    border-radius: 100px;
+    
+}  
+
+header {
+    padding-top: 0.5rem;
+    text-align: center;
+    height: 150px;
+}
+header img{
+    width: 10rem;
+    
+}
+
+main {
+    max-width: 36rem;
+    width: 90%;
+    margin: 3rem auto;
+    padding: 2cm;
+    
+}
+
+section{
+    background-image: linear-gradient(90deg,#6d5b9e 0%,#6ebea2 50%,#cfbf31 100%);
+    padding-top: 0.5rem;
+    border-radius: 10px;
+}
+
+section > div {
+    text-align: center;
+    padding-top: 1rem;
+    background-color: rgba(0, 0, 0, 0.884);
+    border-radius: 10px;
+    padding: 10px;
+}  
+
+section h2 {
+    letter-spacing: -0.47px;
+   
+}
+section p {
+    letter-spacing:-0.18px;
+    color:#a1a1aa;
+}
+
+
+
+
+
+
